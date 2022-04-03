@@ -1,0 +1,37 @@
+.main_container {
+  padding: 40px;
+
+  .title_block {
+    display: flex;
+    justify-content: space-between;
+
+
+    h1 {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+    }
+  }
+
+  .search-block {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    border: 1px solid #F3F3F3;
+    border-radius: 10px;
+    padding: 15px;
+
+    input {
+      border: 0;
+      margin-left: 14px;
+    }
+  }
+
+  .items-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: auto;
+  }
+
+}

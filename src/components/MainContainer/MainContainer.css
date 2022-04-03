@@ -1,0 +1,32 @@
+.main_container {
+  padding: 40px;
+}
+.main_container .title_block {
+  display: flex;
+  justify-content: space-between;
+}
+.main_container .title_block h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+}
+.main_container .search-block {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  border: 1px solid #F3F3F3;
+  border-radius: 10px;
+  padding: 15px;
+}
+.main_container .search-block input {
+  border: 0;
+  margin-left: 14px;
+}
+.main_container .items-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+/*# sourceMappingURL=MainContainer.css.map */
