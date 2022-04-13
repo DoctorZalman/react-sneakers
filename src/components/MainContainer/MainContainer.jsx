@@ -11,9 +11,11 @@ function MainContainer({addCartItems}) {
 
   useEffect(() => {
     axios.get('https://624c246d44505084bc5a0176.mockapi.io/items').then(res => setItems(res.data))
+    axios.get('https://624c246d44505084bc5a0176.mockapi.io/cart').then(res => addCartItems(res.data))
   }, [])
 
   const addToCart = (obj) => {
+    axios.post('https://624c246d44505084bc5a0176.mockapi.io/cart', obj);
     addCartItems(prev => [...prev, obj]);
   }
 
