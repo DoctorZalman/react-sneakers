@@ -19,6 +19,9 @@
   box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
   padding: 0px 30px;
 }
+.overlay .drawer .items_block {
+  overflow: auto;
+}
 .overlay .drawer .cart-title {
   display: flex;
   justify-content: space-between;

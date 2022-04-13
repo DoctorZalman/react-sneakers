@@ -26,6 +26,10 @@
   position: absolute;
   cursor: pointer;
 }
+.item .favorite img {
+  width: 32px;
+  height: 32px;
+}
 .item .item-price {
   display: flex;
   justify-content: space-between;
