@@ -17,7 +17,7 @@ function App() {
   return (
       <MyContext.Provider value={myContextValue}>
         <div className="wrapper">
-          {cartOpened && <Drawer/>}
+          {cartOpened && <Drawer removeCartItem={setCartItems}/>}
           <Header onClickCart={onClickCart}/>
           <MainContainer addCartItems={setCartItems}/>
         </div>
