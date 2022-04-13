@@ -36,11 +36,12 @@ header .right-block {
 header .right-block .cart {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 header .right-block .cart span {
   margin-left: 15px;
 }
-header .right-block svg {
+header .right-block img {
   margin-left: 30px;
 }
 

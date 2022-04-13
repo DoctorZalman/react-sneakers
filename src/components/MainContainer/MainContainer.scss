@@ -20,10 +20,20 @@
     border: 1px solid #F3F3F3;
     border-radius: 10px;
     padding: 15px;
+    overflow: hidden;
+    position: relative;
 
     input {
       border: 0;
       margin-left: 14px;
+      outline: none;
+    }
+    .clear-input {
+      position: absolute;
+      right: 0;
+      width: 25px;
+      height: 25px;
+      padding-right: 5px;
     }
   }
 
